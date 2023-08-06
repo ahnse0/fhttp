@@ -27,12 +27,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/ahnse0/utls"
 
-	http "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptrace"
+	http "github.com/ahnse0/fhttp"
+	"github.com/ahnse0/fhttp/httptrace"
 
-	"github.com/bogdanfinn/fhttp/http2/hpack"
+	"github.com/ahnse0/fhttp/http2/hpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"
 )

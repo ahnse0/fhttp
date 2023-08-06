@@ -1,10 +1,10 @@
-module github.com/bogdanfinn/fhttp
+module github.com/ahnse0/fhttp
 
 go 1.18
 
 require (
 	github.com/andybalholm/brotli v1.0.4
-	github.com/bogdanfinn/utls v1.5.16
+	github.com/ahnse0/utls v1.0.0
 	golang.org/x/net v0.1.0
 	golang.org/x/term v0.1.0
 )
@@ -16,4 +16,4 @@ require (
 	golang.org/x/text v0.4.0 // indirect
 )
 
-// replace github.com/bogdanfinn/utls => ../utls
+// replace github.com/ahnse0/utls => ../utls

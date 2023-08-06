@@ -9,9 +9,9 @@ package http2
 import (
 	"sync"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/ahnse0/utls"
 
-	http "github.com/bogdanfinn/fhttp"
+	http "github.com/ahnse0/fhttp"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.
